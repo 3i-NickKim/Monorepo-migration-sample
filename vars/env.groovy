@@ -1,3 +1,3 @@
 class Temp {
-    String call = "hello"
+    def call = "hello"
 }
