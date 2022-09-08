@@ -1,6 +1,7 @@
 package vars
 
-def G_POD_TEMPLATE = """
+def G_POD_TEMPLATE() {
+     return """
      api version: v1
      kind: Pod
      spec:
@@ -19,3 +20,4 @@ def G_POD_TEMPLATE = """
          args:
          - infinity
      """
+}
