@@ -1,6 +1,6 @@
 package vars
 
-def G_POD_TEMPLATE() {
+def GLOBAL_POD_TEMPLATE() {
      return """
      api version: v1
      kind: Pod
