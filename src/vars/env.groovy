@@ -22,8 +22,9 @@ def GLOBAL_POD_TEMPLATE() {
      """
 }
 
-def NODE_POD_TEMPLATE_TEST() {
-     return '''
+class Env {
+
+     public static final def NODE_POD_TEMPLATE_TEST = '''
      api version: v1
      kind: Pod
      spec:
