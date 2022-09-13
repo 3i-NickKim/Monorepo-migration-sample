@@ -22,9 +22,7 @@ def GLOBAL_POD_TEMPLATE() {
      """
 }
 
-class Env {
-
-     public static final def NODE_POD_TEMPLATE_TEST = '''
+def NODE_POD_TEMPLATE_TEST = '''
      api version: v1
      kind: Pod
      spec:
@@ -60,4 +58,3 @@ class Env {
          persistentVolumeClaim:
            claimName: cicd-aws-claim
      '''
-}
