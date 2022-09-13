@@ -22,7 +22,8 @@ def GLOBAL_POD_TEMPLATE() {
      """
 }
 
-def NODE_POD_TEMPLATE_TEST = '''
+def NODE_POD_TEMPLATE_TEST() {
+     return '''
      api version: v1
      kind: Pod
      spec:
@@ -58,3 +59,4 @@ def NODE_POD_TEMPLATE_TEST = '''
          persistentVolumeClaim:
            claimName: cicd-aws-claim
      '''
+}
